@@ -1,0 +1,158 @@
+[
+  {
+    "id": "1",
+    "name": "Egg Manchurian",
+    "category": "Appetizer",
+    "time": "30 Mins",
+    "image": "assets/img/recepie/recpie_1.png",
+    "description": "A spicy Indo-Chinese dish made with boiled eggs tossed in a tangy Manchurian sauce.",
+    "ingredients": [
+      "4 boiled eggs",
+      "1 onion, chopped",
+      "2 tbsp soy sauce",
+      "1 tbsp chili sauce",
+      "1 tsp ginger-garlic paste",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "Cut the boiled eggs in halves. Sauté onions and ginger-garlic paste, add sauces and toss eggs until coated. Serve hot."
+  },
+  {
+    "id": "2",
+    "name": "Pure Vegetable Bowl",
+    "category": "Appetizer",
+    "time": "30 Mins",
+    "image": "assets/img/recepie/recpie_2.png",
+    "description": "A healthy mix of seasonal vegetables tossed in olive oil and herbs.",
+    "ingredients": [
+      "1 cup broccoli florets",
+      "1 cup chopped carrots",
+      "1 zucchini, sliced",
+      "2 tbsp olive oil",
+      "1 tsp mixed herbs",
+      "Salt to taste"
+    ],
+    "instructions": "Steam or sauté the vegetables lightly in olive oil. Sprinkle herbs and salt. Serve warm in a bowl."
+  },
+  {
+    "id": "3",
+    "name": "Egg Masala Ramen",
+    "category": "Appetizer",
+    "time": "30 Mins",
+    "image": "assets/img/recepie/recpie_3.png",
+    "description": "An Indian twist on the classic ramen with spiced egg curry and noodles.",
+    "ingredients": [
+      "1 packet ramen noodles",
+      "2 boiled eggs",
+      "1 onion, chopped",
+      "1 tomato, chopped",
+      "1 tsp garam masala",
+      "1 tbsp oil",
+      "Salt to taste"
+    ],
+    "instructions": "Cook ramen as per instructions. In a separate pan, sauté onion, tomato, and spices. Add eggs and combine with ramen."
+  },
+  {
+    "id": "4",
+    "name": "Egg Manchurian",
+    "category": "Appetizer",
+    "time": "30 Mins",
+    "image": "assets/img/recepie/recpie_1.png",
+    "description": "A spicy Indo-Chinese dish made with boiled eggs tossed in a tangy Manchurian sauce.",
+    "ingredients": [
+      "4 boiled eggs",
+      "1 onion, chopped",
+      "2 tbsp soy sauce",
+      "1 tbsp chili sauce",
+      "1 tsp ginger-garlic paste",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "Cut the boiled eggs in halves. Sauté onions and ginger-garlic paste, add sauces and toss eggs until coated. Serve hot."
+  },
+  {
+    "id": "5",
+    "name": "Pure Vegetable Bowl",
+    "category": "Appetizer",
+    "time": "30 Mins",
+    "image": "assets/img/recepie/recpie_2.png",
+    "description": "A healthy mix of seasonal vegetables tossed in olive oil and herbs.",
+    "ingredients": [
+      "1 cup broccoli florets",
+      "1 cup chopped carrots",
+      "1 zucchini, sliced",
+      "2 tbsp olive oil",
+      "1 tsp mixed herbs",
+      "Salt to taste"
+    ],
+    "instructions": "Steam or sauté the vegetables lightly in olive oil. Sprinkle herbs and salt. Serve warm in a bowl."
+  },
+  {
+    "id": "6",
+    "name": "Egg Masala Ramen",
+    "category": "Appetizer",
+    "time": "30 Mins",
+    "image": "assets/img/recepie/recpie_3.png",
+    "description": "An Indian twist on the classic ramen with spiced egg curry and noodles.",
+    "ingredients": [
+      "1 packet ramen noodles",
+      "2 boiled eggs",
+      "1 onion, chopped",
+      "1 tomato, chopped",
+      "1 tsp garam masala",
+      "1 tbsp oil",
+      "Salt to taste"
+    ],
+    "instructions": "Cook ramen as per instructions. In a separate pan, sauté onion, tomato, and spices. Add eggs and combine with ramen."
+  },
+  {
+    "id": "7",
+    "name": "Egg Manchurian",
+    "category": "Appetizer",
+    "time": "30 Mins",
+    "image": "assets/img/recepie/recpie_1.png",
+    "description": "A spicy Indo-Chinese dish made with boiled eggs tossed in a tangy Manchurian sauce.",
+    "ingredients": [
+      "4 boiled eggs",
+      "1 onion, chopped",
+      "2 tbsp soy sauce",
+      "1 tbsp chili sauce",
+      "1 tsp ginger-garlic paste",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "Cut the boiled eggs in halves. Sauté onions and ginger-garlic paste, add sauces and toss eggs until coated. Serve hot."
+  },
+  {
+    "id": "8",
+    "name": "Pure Vegetable Bowl",
+    "category": "Appetizer",
+    "time": "30 Mins",
+    "image": "assets/img/recepie/recpie_2.png",
+    "description": "A healthy mix of seasonal vegetables tossed in olive oil and herbs.",
+    "ingredients": [
+      "1 cup broccoli florets",
+      "1 cup chopped carrots",
+      "1 zucchini, sliced",
+      "2 tbsp olive oil",
+      "1 tsp mixed herbs",
+      "Salt to taste"
+    ],
+    "instructions": "Steam or sauté the vegetables lightly in olive oil. Sprinkle herbs and salt. Serve warm in a bowl."
+  },
+  {
+    "id": "9",
+    "name": "Egg Masala Ramen",
+    "category": "Appetizer",
+    "time": "30 Mins",
+    "image": "assets/img/recepie/recpie_3.png",
+    "description": "An Indian twist on the classic ramen with spiced egg curry and noodles.",
+    "ingredients": [
+      "1 packet ramen noodles",
+      "2 boiled eggs",
+      "1 onion, chopped",
+      "1 tomato, chopped",
+      "1 tsp garam masala",
+      "1 tbsp oil",
+      "Salt to taste"
+    ],
+    "instructions": "Cook ramen as per instructions. In a separate pan, sauté onion, tomato, and spices. Add eggs and combine with ramen."
+  }
+]

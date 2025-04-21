@@ -1,0 +1,19 @@
+<div class="recepie_area plus_padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="{{recipe.thumbnail}}" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-9 mt-sm-20">
+        <h3>Ingredients:</h3>
+        <ul>
+          <li *ngFor="let ingredient of recipe.ingredients">{{ ingredient }}</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <p>{{ recipe.instructions }}</p>
+        <button [routerLink]="['/pages/recipes/1/edit']" class="genric-btn btn-link" (click)="toggleEdit()">Edit Recipe</button>
+      </div>
+    </div>
+  </div>
+</div>
+

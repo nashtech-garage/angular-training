@@ -1,0 +1,58 @@
+<div class="recepie_area plus_padding">
+  <div class="container">
+    <div class="col-lg-8 col-md-8">
+      <h3 class="mb-30">Your secret ingredients</h3>
+      <form [formGroup]="form" (ngSubmit)="submit()" class="recipe-form">
+
+        <div class="mt-10">
+          <input type="text" name="name" formControlName="title" placeholder="e.g., Spaghetti Bolognese"
+                 onfocus="this.placeholder = ''"
+                 onblur="this.placeholder = 'e.g., Spaghetti Bolognese'" required="" class="form-control single-input">
+        </div>
+
+
+        <div class="mt-10">
+          <textarea formControlName="description" class="form-control single-textarea" placeholder="Description"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Description'" required></textarea>
+        </div>
+
+        <div class="mt-10">
+          <div formArrayName="ingredients">
+            <div *ngFor="let ing of ingredients.controls; let i = index">
+              <input [formControlName]="i" placeholder="e.g., 1 cup flour" class="form-control single-input"/>
+              <button type="button" class="line_btn" (click)="removeIngredient(i)">Remove</button>
+            </div>
+          </div>
+          <button type="button" class="line_btn" (click)="addIngredient()">+ Add Ingredient</button>
+        </div>
+
+        <div class="mt-10">
+          <textarea class="form-control single-textarea" formControlName="instructions"
+                    placeholder="details instructions"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'details instructions'"
+                    required
+          ></textarea>
+        </div>
+
+        <div class="mt-10">
+          <input class="form-control single-input" formControlName="imageUrl" placeholder="an image url for reference"
+                 onfocus="this.placeholder = ''"
+                 onblur="this.placeholder = 'an image url for reference'"
+          />
+        </div>
+
+        <div class="form-group mt-3">
+          <button type="submit" [disabled]="form.invalid" class="genric-btn boxed-btn"
+                  [ngClass]="{'disable': form.invalid}">Submit Recipe
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
